@@ -5,45 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pravin Kuyate - Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-dL8PmT6bQWHFh6YkYsclbY4l72usRxzIjKvO57S/lVzVh+1cxXRMzYOy55tnyX2FEl9QVTcMgtNJ3Mf1zLx
+    JRTg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-
-    header {
-      text-align: center;
-    }
-
-    h1 {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
       color: #333;
-    }
-
-    h2 {
-      color: #666;
-    }
-
-    section {
-      margin-bottom: 20px;
-    }
-
-    ul {
-      list-style-type: none;
+      margin: 0;
       padding: 0;
     }
 
-    li {
-      margin-bottom: 8px;
-    }
-
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
   </style>
 </head>
 
@@ -52,8 +25,12 @@
   <header>
     <h1>Pravin Kuyate</h1>
     <h2>Machine Learning Engineer / Python Developer</h2>
-    <p><a href="tel:+917887498918">+917887498918</a> | <a href="mailto:pravinkuyate0@gmail.com">pravinkuyate0@gmail.com</a> |
-      <a href="https://www.linkedin.com/in/pravin-kuyate" target="_blank">LinkedIn</a></p>
+    <p>
+      <a href="tel:+917887498918" class="icon"><i class="fas fa-phone"></i>+917887498918</a>
+      <a href="mailto:pravinkuyate0@gmail.com" class="icon"><i class="far fa-envelope"></i>pravinkuyate0@gmail.com</a>
+      <a href="https://www.linkedin.com/in/pravin-kuyate" target="_blank" class="icon"><i
+          class="fab fa-linkedin"></i>LinkedIn</a>
+    </p>
     <p>Pune</p>
   </header>
 
@@ -104,22 +81,28 @@
 
   <section>
     <h2>Projects</h2>
-    <ul>
-      <li>HR. Employee Attrition | Pune | 03/2022 - 04/2022</li>
-      <li>During my internship, I spearheaded a project focused on predicting employee attrition using machine learning
-        techniques.</li>
-      <li>Symbiosis Rating Analysis | Pune | 2023 - 2023</li>
-      <li>Short summary of your work</li>
-      <li>Sensitive Data Detector | Pune | 11/2023 - 12/2023</li>
-      <li>Developed a sophisticated Sensitive Data Detector, a cutting-edge application designed to enhance data security
-        and privacy.</li>
-      <li>E-Learning Platform Using Machine Learning | Pune | 01/2023 - 03/2023</li>
-      <li>This great solution aims to elevate the virtual learning experience by ensuring genuine student attendance,
-        preventing the generation of fake certifications, and enhancing overall engagement.</li>
-    </ul>
+    <div class="project">
+      <h3>HR. Employee Attrition | Pune | 03/2022 - 04/2022</h3>
+      <p>During my internship, I spearheaded a project focused on predicting employee attrition using machine learning
+        techniques.</p>
+    </div>
+    <div class="project">
+      <h3>Symbiosis Rating Analysis | Pune | 2023 - 2023</h3>
+      <p>Short summary of your work</p>
+    </div>
+    <div class="project">
+      <h3>Sensitive Data Detector | Pune | 11/2023 - 12/2023</h3>
+      <p>Developed a sophisticated Sensitive Data Detector, a cutting-edge application designed to enhance data security
+        and privacy.</p>
+    </div>
+    <div class="project">
+      <h3>E-Learning Platform Using Machine Learning | Pune | 01/2023 - 03/2023</h3>
+      <p>This great solution aims to elevate the virtual learning experience by ensuring genuine student attendance,
+        preventing the generation of fake certifications, and enhancing overall engagement.</p>
+    </div>
   </section>
 
-  <section>
+  <section class="strengths">
     <h2>Strengths</h2>
     <ul>
       <li>Adaptable under Pressure</li>
