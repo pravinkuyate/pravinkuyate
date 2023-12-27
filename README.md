@@ -65,7 +65,7 @@
   <section>
     <h2>Training / Courses</h2>
     <ul>
-      <li>Data Science Foundation, Machine Learning | Symbiosis Professional University, Pune</li>
+      <li> Machine Learning | Symbiosis Professional University, Pune</li>
       <li>Training in Python Programming</li>
     </ul>
   </section>
